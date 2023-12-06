@@ -1,0 +1,157 @@
+{
+  "users": [
+    {
+      "name": "hamza",
+      "email": "hamza@ggg.vs",
+      "password": "hamza257",
+      "id": 1
+    },
+    {
+      "name": "hamza",
+      "email": "hamza@dfff.com",
+      "password": "123456",
+      "id": 2
+    }
+  ],
+  "Locations": [
+    {
+      "name": "hamza tacos",
+      "phone": "0569235412",
+      "address": "rue taza fes",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "hamza cham",
+      "phone": "0568523210",
+      "address": "rue rabat fes jdid",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "hamzabasma",
+      "phone": "0584752314",
+      "address": "rue oued fes er",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "name": "chawarama cham",
+      "phone": "0584752314",
+      "address": "rue taza salé fes",
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "name": "Basma salade",
+      "phone": "0585632235",
+      "address": "AV taza Gaza palestine",
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "name": "Tacos Gaza",
+      "phone": "0568233210",
+      "address": "88 rue fes Rabat",
+      "userId": 1,
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "name": "Pizza",
+      "userId": 2,
+      "locationId": 2,
+      "id": 1
+    },
+    {
+      "name": "Salades",
+      "userId": 2,
+      "locationId": 2,
+      "id": 2
+    },
+    {
+      "name": "Tacos",
+      "userId": 2,
+      "locationId": 2,
+      "id": 3
+    },
+    {
+      "name": "Salades",
+      "userId": 1,
+      "locationId": 8,
+      "id": 5
+    },
+    {
+      "name": "pizza",
+      "userId": 1,
+      "locationId": 8,
+      "id": 6
+    },
+    {
+      "name": "Tacos",
+      "userId": 1,
+      "locationId": 8,
+      "id": 7
+    }
+  ],
+  "foods": [
+    {
+      "name": "Pizza vegan",
+      "price": "52",
+      "userId": 1,
+      "locationId": 8,
+      "idCategory": 6,
+      "id": 1
+    },
+    {
+      "name": "Pizza marinera",
+      "price": "52",
+      "userId": 1,
+      "locationId": 8,
+      "idCategory": 6,
+      "id": 2
+    },
+    {
+      "name": "Pizza mixte",
+      "price": "64",
+      "userId": 1,
+      "locationId": 7,
+      "idCategory": 6,
+      "id": 3
+    },
+    {
+      "name": "Pizza cheeze",
+      "price": "46",
+      "userId": 1,
+      "locationId": 8,
+      "idCategory": 6,
+      "id": 4
+    },
+    {
+      "name": "Pizza pelle",
+      "price": "65",
+      "userId": 1,
+      "locationId": 8,
+      "idCategory": 6,
+      "id": 5
+    },
+    {
+      "name": "salade césar",
+      "price": "23",
+      "userId": 1,
+      "locationId": 8,
+      "idCategory": 5,
+      "id": 6
+    },
+    {
+      "name": "Tacos Mixte",
+      "price": "35",
+      "userId": 1,
+      "locationId": 8,
+      "idCategory": 7,
+      "nameCategory": "Tacos",
+      "id": 7
+    }
+  ]
+}
