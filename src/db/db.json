@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "name": "hamza",
+      "email": "hamza@ggg.vs",
+      "password": "hamza257",
+      "id": 1
+    },
+    {
+      "name": "hamza",
+      "email": "hamza@dfff.com",
+      "password": "123456",
+      "id": 2
+    }
+  ],
+  "Locations": [
+    {
+      "name": "hamza tacos",
+      "phone": "0569235412",
+      "address": "rue taza fes",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "hamza cham",
+      "phone": "0568523210",
+      "address": "rue rabat fes jdid",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "hamzabasma",
+      "phone": "0584752314",
+      "address": "rue oued fes er",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "name": "chawarama cham",
+      "phone": "0584752314",
+      "address": "rue taza salé fes",
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "name": "Basma salade",
+      "phone": "0585632235",
+      "address": "AV taza Gaza palestine",
+      "userId": 2,
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "name": "Pizza",
+      "userId": 2,
+      "locationId": 2,
+      "id":1
+    }
+  ],
+  "Items": []
+}
