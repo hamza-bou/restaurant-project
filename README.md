@@ -1,5 +1,5 @@
 # restaurant-project
-
+Vue js Restaurants management
 ## Project setup
 ```
 npm install
