@@ -124,7 +124,6 @@
       "userId": 1,
       "locationId": 8,
       "idCategory": 7,
-      "nameCategory": "Tacos",
       "id": 7
     },
     {
@@ -133,7 +132,6 @@
       "userId": 1,
       "locationId": 8,
       "idCategory": 6,
-      "nameCategory": "pizza",
       "id": 8
     }
   ]
