@@ -68,11 +68,18 @@ const mutations = {
       this.commit("redirectTo", payload.redirectToPage);
     }
   },
+
+  deleteFoodById(state, id) {
+    state.foodsByLocationId = state.foodsByLocationId.filter((food) => food.id !== id);
+  },
   
 };
 const actions = {
   redirectTo({ commit }, payload) {
     commit("redirectTo", payload.val);
+  },
+  deleteFood({ commit }, id) {
+    commit('deleteFoodById', id);
   },
 };
 const modules = {};

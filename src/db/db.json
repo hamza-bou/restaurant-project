@@ -11,6 +11,12 @@
       "email": "hamza@dfff.com",
       "password": "123456",
       "id": 2
+    },
+    {
+      "name": "hamza",
+      "email": "hamza@ggg.com",
+      "password": "hamza2020",
+      "id": 3
     }
   ],
   "Locations": [
@@ -97,22 +103,6 @@
   ],
   "foods": [
     {
-      "name": "Pizza vegan",
-      "price": "52",
-      "userId": 1,
-      "locationId": 8,
-      "idCategory": 6,
-      "id": 1
-    },
-    {
-      "name": "Pizza marinera",
-      "price": "52",
-      "userId": 1,
-      "locationId": 8,
-      "idCategory": 6,
-      "id": 2
-    },
-    {
       "name": "Pizza mixte",
       "price": "64",
       "userId": 1,
@@ -121,24 +111,8 @@
       "id": 3
     },
     {
-      "name": "Pizza cheeze",
-      "price": "46",
-      "userId": 1,
-      "locationId": 8,
-      "idCategory": 6,
-      "id": 4
-    },
-    {
-      "name": "Pizza pelle",
-      "price": "65",
-      "userId": 1,
-      "locationId": 8,
-      "idCategory": 6,
-      "id": 5
-    },
-    {
-      "name": "salade césar",
-      "price": "23",
+      "name": "salade césar big",
+      "price": "25",
       "userId": 1,
       "locationId": 8,
       "idCategory": 5,
@@ -152,6 +126,15 @@
       "idCategory": 7,
       "nameCategory": "Tacos",
       "id": 7
+    },
+    {
+      "name": "pizza marinira",
+      "price": "52",
+      "userId": 1,
+      "locationId": 8,
+      "idCategory": 6,
+      "nameCategory": "pizza",
+      "id": 8
     }
   ]
 }

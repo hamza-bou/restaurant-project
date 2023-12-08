@@ -8,6 +8,7 @@ import Menu from "../components/Menu/Menu.vue";
 import AddCategory from "../components/Menu/AddCategory.vue";
 import ViewCategories from '../components/Menu/ViewCategories.vue';
 import AddItem from "../components/Menu/AddItem.vue";
+import updateItem from "../components/Menu/UpdateItem.vue";
 
 const routes = [
   {
@@ -61,6 +62,12 @@ const routes = [
     name: "AddItem",
     component: AddItem
   },
+  {
+    path: "/menu/:idItem/updateItem",
+    name: "updateItem",
+    component: updateItem
+  },
+  
   
 ];
 
